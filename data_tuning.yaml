@@ -1,0 +1,5 @@
+train: ../dataset_tuning/train/images
+val: ../dataset_tuning/valid/images
+
+nc: 3
+names: ['glioma', 'meningioma', 'pituitary']

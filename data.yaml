@@ -1,0 +1,6 @@
+train: ../brain/train/images
+val: ../brain/valid/images
+test: ../brain/test/images
+
+nc: 3
+names: ['glioma', 'meningioma', 'pituitary']
