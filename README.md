@@ -216,6 +216,9 @@ names: ['glioma', 'meningioma', 'pituitary']
 
 ## 📊 Model Eğitim Sonuçları (İlk 10 Epoch)
 
+> [!NOTE]
+> Bu eğitim sonuçları, sistemin çalışabilirliğini ve pipeline yapısını test etmek amacıyla başlatılmış **kısa süreli (10 epoch) bir deneme eğitimine aittir**. Eğitim devam ettirilmemiştir. Tam performans ve üretim aşaması için modelin daha yüksek epoch sayılarında (ör. 50-100) yeniden eğitilmesi önerilir.
+
 İlk 10 epoch sonucunda elde edilen YOLOv8 model metrikleri oldukça başarılıdır. Aşırı öğrenme (overfitting) olmadan validation kayıplarının (loss) düştüğü gözlemlenmiştir.
 
 * **mAP@50:** %87.91 (Genel doğruluk)
