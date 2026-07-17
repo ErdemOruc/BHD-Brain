@@ -18,8 +18,6 @@ ENV/
 # YOLO specific
 runs/
 *.pt
-!yolov8*.pt
-!yolo11n.pt
 
 # Dataset
 dataset_tuning/
